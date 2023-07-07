@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* This is header section */
+header > nav {
+    padding: 20px 0;
+    display: flex;
+    background-color: rgb(78, 78, 78);
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav > .site-logo > img{
+    width: 120px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+nav ul a{
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* This is main section */
+
+/* This is banner section */
+
+.banner{
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("./images/background.png"),linear-gradient(45deg,rgb(8, 8, 8),rgb(50, 35, 2));
+    background-size: cover;
+    color: white;
+}
+
+.banner img{
+    width: 300px;
+}
+
+.banner h1{
+    font-size: 3rem;
+}
+
+.banner p{
+    font-size: 16px;
+    margin: 15px 0;
+}
+
+button{
+    padding: 12px 17px;
+    border-radius: 3px;
+    color: white;
+    background-color: red;
+    border: none;
+}
+
+/* This is about section */
+
+.about-container{
+    height: 500px;
+}
+
+.about-container > h1{
+    font-size: 3rem;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.about-container > .flex-box {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    margin-top: 20px;
+    padding: 25px;
+}
+.about-container > .flex-box img{
+    width: 300px;
+}
+.about-container > .flex-box p{
+    margin: 20px 0;
+}
+
+/* This is services section */
+.Service-container{
+    flex-wrap: wrap;
+    background-image: url(./images/background.png),linear-gradient(45deg,rgb(5, 5, 5), #2e2e2e);
+    color: white;
+    padding: 50px;
+}
+
+.Service-container > h1{
+    font-size: 3rem;
+    text-align: center;
+}
+.Service-container > .box-container{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+.Service-container > .box-container > div{
+    height: 310px;
+    width: 230px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0px 0px 80px rgba(248, 248, 248, 0.415);
+    padding: 15px;
+}
+.Service-container > .box-container > div > img{
+    width: 70px;
+}
+.Service-container > .box-container > div > h2{
+    margin: 10px 0;
+}
+.Service-container > .box-container > div > .paragraph{
+    margin: 0 0 30px 0;
+}
+.Service-container > .box-container > div > p{
+    font-size: 14px;
+}
