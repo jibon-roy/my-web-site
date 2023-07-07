@@ -129,3 +129,19 @@ button{
 .Service-container > .box-container > div > p{
     font-size: 14px;
 }
+/* this is footer section */
+footer{
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 30px 100px ;
+}
+
+footer > hr {
+    border-color: #f6f6f69d;
+    margin-bottom: 30px;
+}
+
+footer > p > small{
+   padding: 15px;
+}
